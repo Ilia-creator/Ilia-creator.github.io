@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <div id = "topbar">
+        <img src="Ilia.JPG">
+        <p> Hello, my name is Ilia! Welcome to my site!</p>
+    <div/>
+    </head>
+            <body>
+
+            <div id = "mainsection">
+                <p> I love programming, I usually write in python and I like it.</p>
+                <p> I also have a younger brother, Lev, and we play together.</p>
+                <p> I also play football and swimming.</p>
+                <p> I also have a youtube chanel.</p>
+                <a href="https://www.youtube.com/@iljashubnikov7312/community"> My youtube chanel(link)</a>
+                <p> Please subscribe! </p>
+                <p><button id="mainbutton" type="button" onclick= sayHello()>Say hello!</button></p>
+            </div>
+
+            </body>
+    <script>
+        function sayHello(){
+            var name = prompt("Hello what is your name?")
+            if (name != null){
+                window.alert("Nice to meet you "+name+"! Thank you for visiting my site!")
+        }   }
+
+    </script>
+</html>
